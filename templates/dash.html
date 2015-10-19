@@ -1,0 +1,14 @@
+{% extends "_layouts/base.html" %}
+{% load staticfiles %}
+
+
+{% block page_title %}{{ project_name }}{% endblock %}
+{% block page_class %}dash-page{% endblock %}
+{% block content %}
+{% endblock %}
+
+
+{% block js %}
+{{ block.super }}
+<script type="text/javascript" src="{% static "js/components.js" %}"></script>
+{% endblock %}

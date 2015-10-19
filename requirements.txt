@@ -1,0 +1,13 @@
+Django
+psycopg2
+django-forms-bootstrap
+gunicorn
+
+# Templates
+django_compressor
+
+# Security
+bleach
+
+# Admin
+django-debug-toolbar
